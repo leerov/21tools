@@ -11,7 +11,7 @@ cd review/src || { echo "review/src directory missing"; exit 1; }
 git switch develop || { echo "develop branch not found"; exit 1; }
 
 REPO_NAME=$(basename "$REPO_URL" .git)
-AUTHOR=$(echo "$REPO_URL" | sed -E 's%^[^:]+://[^/]+/%%')
+AUTHOR=$(echo "$REPO_URL" | grep -oE '[^/]+/[^/]+/[^/]+/[^/]+.git$' | cut -d'/' -f4)
 TARGET_DIR="$HOME/reviews/${REPO_NAME}-${AUTHOR}"
 
 mkdir -p "$TARGET_DIR"
