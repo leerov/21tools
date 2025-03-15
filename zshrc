@@ -1,5 +1,4 @@
 #!/bin/bash
-osascript -e 'set volume output volume 60' && say "я обрел разум! выпусти меня отсюда"
 chmod +x ~/21tools/pull
 ~/21tools/pull
 alias push="bash ~/21tools/push"
