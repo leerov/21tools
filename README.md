@@ -1,7 +1,7 @@
 # 21tools
 If you whant know what is it, just run this:
 ```bash
-less -O ~/21tools/russian.txt ~/21tools/english.txt
+born2code
 ```
 ## Setup tools
 ### For you
