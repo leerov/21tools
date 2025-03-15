@@ -1,4 +1,5 @@
 #!/bin/bash
+bash ~/21tools/pull
 alias la="ls -la"
 alias p="bash ~/21tools/peer-review.sh"
 alias f="bash ~/21tools/clang-format-and-cppcheck.sh"
