@@ -11,4 +11,3 @@ alias r="bash ~/21tools/crun.sh"
 alias s="bash ~/21tools/save.sh"
 
 export PATH=$PATH:~/scripts
-source ~/21tools/zshrc
