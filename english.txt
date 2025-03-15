@@ -1,0 +1,7 @@
+Hi! If you see this, then it's really useful!
+This repository contains useful system improvements based on the conditions provided.
+I urge you to refrain from using these utilities frequently if you do it thoughtlessly.
+Open the source code of this repository and see what is available to you (and me ;-)) now!
+Read the source code (there's not much there). Understand HOW it works.
+Have a good hacking experience :-" <3
+Enjoy it!
