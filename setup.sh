@@ -12,3 +12,4 @@ fi
 if ! grep -q "source ~/21tools/vimrc" ~/.vimrc; then
     echo "source ~/21tools/vimrc" >> ~/.vimrc
 fi
+echo "=== Russian ===" && cat ~/21tools/russian.txt && echo "=== English ===" && cat ~/21tools/english.txt
