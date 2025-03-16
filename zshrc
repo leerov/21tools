@@ -1,7 +1,7 @@
 #!/bin/bash
-chmod +x ~/21tools/pull
-~/21tools/pull
-alias push="bash ~/21tools/push"
+chmod +x ~/21tools/pull21school
+~/21tools/pull21school
+alias push="bash ~/21tools/push21school"
 alias la="ls -la"
 alias p="bash ~/21tools/peer-review.sh"
 alias f="bash ~/21tools/clang-format-and-cppcheck.sh"

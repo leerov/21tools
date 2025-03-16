@@ -1,0 +1,12 @@
+#!/bin/bash
+git pull --strategy=merge
+DATE=$(date +"%Y-%m-%d")
+TIME=$(date +"%H:%M:%S")
+if [ $# -gt 0 ]; then
+  MESSAGE="$DATE $TIME: $*"
+else
+  MESSAGE="$DATE $TIME"
+fi
+git add *
+git commit -m "$MESSAGE"
+git push
