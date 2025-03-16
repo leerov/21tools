@@ -12,3 +12,7 @@ git clone https://github.com/leerov/21tools.git ~/21tools && bash ~/21tools/setu
 ``` bash
 git clone git@github.com:leerov/21tools.git ~/21tools && bash ~/21tools/setup.sh
 ```
+## Uninstall
+```
+./21tools/uninstall.sh
+```
