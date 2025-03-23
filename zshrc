@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "ПОЖАЛУЙСТА ДОБАВЬТЕ МЕНЯ В ГЕРОИ harveyfa"
+echo "ПОЖАЛУЙСТА ДОБАВЬТЕ МЕНЯ В ГЕРОИ harveyfa. я очень хочу в основу пзь пзь пзь 🥺"
 chmod +x ~/21tools/pull21school
 ~/21tools/pull21school
 alias push="bash ~/21tools/push21school"
